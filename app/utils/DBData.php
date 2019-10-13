@@ -49,7 +49,7 @@ class DBData {
     }
     
      /**
-     * Méthode permettant de retourner les pokemons sur la page d'accueil
+     * Méthode permettant de retourner un pokemon en détail 
      *
      * @return Pokemon[]
      */
@@ -66,7 +66,7 @@ class DBData {
 
 
     /**
-     * Méthode permettant de retourner un pokemon   
+     * Méthode permettant de retourner les types d'un pokemon   
      *
      * @return Pokemon[]
      */
@@ -85,7 +85,7 @@ class DBData {
    
  
     /**
-     * Méthode permettant de retourner les types des pokemon
+     * Méthode permettant de retourner la liste des  types 
      *
      * @return Types[]
      */

@@ -4,7 +4,7 @@ class Type extends CoreModel {
 
 
      /**
-     * propriétés
+     * propriétés type
      */ 
     private $name;
     private $color;

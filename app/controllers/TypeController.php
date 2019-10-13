@@ -6,7 +6,7 @@
 class TypeController extends CoreController {
 
     /**
-     * Action liste/type
+     * Action liste/type/id
      * Appellée lorsque l'url  est demandée  /
      */
     public function typePokemon($params)

@@ -4,7 +4,7 @@ class Pokemon extends CoreModel {
 
 
      /**
-     * propriétés
+     * propriétés pokemon
      */ 
 
     private $nom;

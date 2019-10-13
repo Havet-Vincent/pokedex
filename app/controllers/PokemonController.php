@@ -6,7 +6,7 @@
 class PokemonController extends CoreController {
 
     /**
-     * Action home
+     * Action /pokemon/id
      * Appellée lorsque l'url  est demandée  /
      */
     public function pokemon($params)
