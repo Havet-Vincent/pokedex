@@ -1,0 +1,124 @@
+
+/**
+ * header
+ */
+body { 
+  background-color: #C14040;
+  font-family: 'Bree Serif', serif;
+  margin: auto;
+}
+
+
+/**
+ * header
+ */
+header {
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 1.5rem 1.5rem;
+}
+
+/**
+ * main
+ */
+main {
+  color: white;
+  font-weight: bold;
+}
+
+
+/**
+ * Nav bar
+ */
+.navbar, .nav-link {
+  color: #c14040;
+}
+
+/**
+ * home card
+ */
+.pokemon-card {
+  border-radius: 1.7rem 1.7rem;
+  background-color: #982C2C;
+  /*color: white;*/
+}
+
+.card-image {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.card-link, .back-link, .detail-types {
+  color: #ecc1bd;
+  font-size: 1.4rem;
+}
+
+.card-link:hover,
+.back-link:hover, .detail-types:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/**
+ * type & color
+ */
+.detail-types {
+  border-radius: 0.6rem;
+}
+
+/**
+ * tableau statistiques
+ */
+
+.table {
+  color:white;
+  font-weight: normal;
+  background-color: #AB3838;
+  border-radius: 1.2rem;
+}
+
+.stat-row-title {
+  width: 25%; 
+}
+
+.stat-bar-cell {
+  width: 60%;
+}
+
+/**
+ * progress bar
+ */
+
+.progress {
+  background-color: #632B2B;
+  width: 100%;
+  height: 1.8rem;
+  border-radius: 0.6rem;
+}
+
+.progress-bar {
+  background-color:white;
+}
+
+
+/**
+ * liste types
+*/
+
+.type-text,
+.type-link {
+    color: white;
+}
+
+.type-link:hover,
+.detail-types:hover {
+  color: #ecc1bd;
+    text-decoration: none;    
+}
+
+.type-card {
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
